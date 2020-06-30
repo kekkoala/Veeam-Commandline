@@ -1,0 +1,20 @@
+Add-MpPreference -ExclusionPath "C:\Program Files\Veeam\"
+Add-MpPreference -ExclusionPath "C:\Program Files\Veeam"
+Add-MpPreference -ExclusionPath "C:\Program Files (x86)\Veeam"
+Add-MpPreference -ExclusionPath "C:\VeeamFLR"
+Add-MpPreference -ExclusionPath "%programdata%\Veeam"
+
+Add-MpPreference -ExclusionPath "R:\"
+
+Add-MpPreference -ExclusionExtension ".vbk"
+Add-MpPreference -ExclusionExtension ".vib"
+Add-MpPreference -ExclusionExtension ".vrb"
+Add-MpPreference -ExclusionExtension ".vlb"
+Add-MpPreference -ExclusionExtension ".vom"
+Add-MpPreference -ExclusionExtension ".vsm"
+Add-MpPreference -ExclusionExtension ".bco"
+
+Add-MpPreference -ExclusionProcess "VeeamAgent.exe"
+Add-MpPreference -ExclusionProcess "VeeamAgent64.exe"
+Add-MpPreference -ExclusionProcess "*.vmdk"
+Add-MpPreference -ExclusionProcess "*.flat"
