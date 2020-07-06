@@ -1,0 +1,8 @@
+<AntivirusInfo Name='ClamWIN' IsPortableSoftware='true' ExecutableFilePath='%ProgramFiles(x86)%\ClamWin\bin\clamscan.exe' CommandLineParameters='--database="c:\ProgramData\.clamwin\db" --recursive %Path%' RegPath='' ServiceName='' ThreatExistsRegEx='' IsParallelScanAvailable='false'>
+<ExitCodes>
+<ExitCode Type='Success' Description='No threats detected'>0</ExitCode>
+<ExitCode Type='Error' Description='Antivirus scan was completed with errors'>2</ExitCode>
+<ExitCode Type='Infected' Description='Virus threat was detected'>1</ExitCode>
+</ExitCodes>
+</AntivirusInfo>
+
